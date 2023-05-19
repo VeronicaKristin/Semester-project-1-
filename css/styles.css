@@ -12,10 +12,6 @@ a {
 	text-decoration: none;
 }
 
-a :hover {
-	background: rgba(255, 255, 255, 0.1);
-}
-
 /* top bar */
 header {
 	display: flex;
@@ -54,6 +50,12 @@ header {
 /*home*/
 main {
 	margin: 0 35px;
+}
+
+.top-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (min-width: 600px) {
