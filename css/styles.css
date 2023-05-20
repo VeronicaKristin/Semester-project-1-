@@ -9,7 +9,12 @@ a {
 	cursor: pointer;
 	padding: 5px;
 	border-radius: 15px;
+	color: black;
 	text-decoration: none;
+}
+
+section {
+	margin: 30px 30px;
 }
 
 /* top bar */
@@ -50,7 +55,7 @@ header {
 
 /*home*/
 main {
-	margin: 0 35px;
+	margin: 35px 35px;
 }
 
 .top-image {
@@ -79,6 +84,7 @@ main {
 .kids-image {
 	border-radius: 40px;
 	width: 50%;
+	padding: 2em;
 }
 
 .teachers {
@@ -96,6 +102,7 @@ main {
 .teachers-image {
 	border-radius: 40px;
 	width: 50%;
+	padding: 2em;
 }
 
 .reserchers-content {
@@ -108,6 +115,7 @@ main {
 .reserchers-image {
 	border-radius: 40px;
 	width: 50%;
+	padding: 2em;
 }
 
 .reserchers {
