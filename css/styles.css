@@ -61,19 +61,18 @@ main {
 	object-fit: cover;
 	overflow: hidden;
 	width: 100%;
-	height: 300px;
+	height: 80%;
 }
 
 .kids {
-	border: 2px solid #a2d2ff;
 	border-radius: 10px;
 	background-color: #a2d2ff;
 }
 
 .kids-content {
 	display: flex;
-	flex-direction: column;
-	align-items: right;
+	flex-direction: row;
+	align-items: center;
 	padding: 1em;
 }
 
@@ -83,15 +82,14 @@ main {
 }
 
 .teachers {
-	border: 2px solid #ffc8dd;
 	border-radius: 10px;
 	background-color: #ffc8dd;
 }
 
 .teachers-content {
 	display: flex;
-	flex-direction: column;
-	align-items: right;
+	flex-direction: row;
+	align-items: center;
 	padding: 1em;
 }
 
@@ -102,8 +100,8 @@ main {
 
 .reserchers-content {
 	display: flex;
-	flex-direction: column;
-	align-items: right;
+	flex-direction: row;
+	align-items: center;
 	padding: 1em;
 }
 
@@ -113,7 +111,6 @@ main {
 }
 
 .reserchers {
-	border: 2px solid #cdb4db;
 	border-radius: 10px;
 	background-color: #cdb4db;
 }
@@ -126,7 +123,6 @@ main {
 }
 
 .visit {
-	border: 2px solid #fdffb6;
 	border-radius: 10px;
 	background-color: #fdffb6;
 }
@@ -265,6 +261,22 @@ main {
 		display: none;
 	}
 
+	.kids-content {
+		flex-direction: column;
+	}
+
+	.teachers-content {
+		flex-direction: column;
+	}
+
+	.reserchers-content {
+		flex-direction: column;
+	}
+
+	.visit-content {
+		flex-direction: column;
+	}
+
 	#menu-checkbox:checked ~ nav {
 		display: flex;
 		position: fixed;
@@ -277,5 +289,11 @@ main {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
+	}
+}
+
+@media (max-width: 600px) {
+	.top-image {
+		display: none;
 	}
 }
