@@ -26,6 +26,7 @@ header {
 	margin: 5px 15px 0;
 	font-family: Castoro Titling;
 	text-decoration: none;
+	text-decoration-color: black;
 }
 
 nav {
@@ -56,6 +57,193 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-shrink: 0;
+	object-fit: cover;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+}
+
+.kids {
+	border: 2px solid #a2d2ff;
+	border-radius: 10px;
+	background-color: #a2d2ff;
+}
+
+.kids-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.kids-image {
+	border-radius: 40px;
+	width: 50%;
+}
+
+.teachers {
+	border: 2px solid #ffc8dd;
+	border-radius: 10px;
+	background-color: #ffc8dd;
+}
+
+.teachers-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.teachers-image {
+	border-radius: 40px;
+	width: 50%;
+}
+
+.reserchers-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.reserchers-image {
+	border-radius: 40px;
+	width: 50%;
+}
+
+.reserchers {
+	border: 2px solid #cdb4db;
+	border-radius: 10px;
+	background-color: #cdb4db;
+}
+
+.visit-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.visit {
+	border: 2px solid #fdffb6;
+	border-radius: 10px;
+	background-color: #fdffb6;
+}
+
+/*visit*/
+
+.visit-content-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+/*exhibition*/
+
+.cosmology {
+	background-color: #a2d2ff;
+	border-radius: 10px;
+}
+
+.cosmology-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.evolution {
+	background-color: #ffc8dd;
+	border-radius: 10px;
+}
+
+.evolution-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.biology {
+	background-color: #cdb4db;
+	border-radius: 10px;
+}
+
+.biology-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.robotics {
+	background-color: #fdffb6;
+	border-radius: 10px;
+}
+
+.robotics-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+/*special events*/
+
+.night {
+	background-color: #a2d2ff;
+	border-radius: 10px;
+}
+
+.night-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.visiting {
+	background-color: #ffc8dd;
+	border-radius: 10px;
+}
+
+.visiting-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+.energetica {
+	background-color: #cdb4db;
+	border-radius: 10px;
+}
+
+.energetica-content {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	padding: 1em;
+}
+
+/*footer*/
+
+.footer {
+	background-color: #afafaf;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer > * {
+	flex: 1;
+}
+
+.csm {
+	font-family: Castoro Titling;
 }
 
 @media (min-width: 600px) {
