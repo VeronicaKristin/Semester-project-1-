@@ -13,6 +13,9 @@ a {
 	text-decoration: none;
 }
 
+.visually-hidden {
+	display: none;
+}
 section {
 	margin: 30px 30px;
 }
