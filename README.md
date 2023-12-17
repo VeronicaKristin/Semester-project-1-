@@ -31,8 +31,6 @@ I have used the live server plugin in vscode to run the site in a browser.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
 [My Twitter page](https://twitter.com/vikkionica)
 
 [My LinkedIn page](https://www.linkedin.com/in/veronica-kristin-fadnes-664726283/)
