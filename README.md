@@ -36,8 +36,3 @@ This is where you can leave your social links for people to contact you, such as
 [My Twitter page](https://twitter.com/vikkionica)
 
 [My LinkedIn page](https://www.linkedin.com/in/veronica-kristin-fadnes-664726283/)
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You
-can delete this section if you don't have any acknowledgements to make.
