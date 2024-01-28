@@ -10,7 +10,6 @@ This site is targeting young science interested kids. Its made to show what even
 
 ## Built With
 
-You can list a the tech stack that you've used over here
 
 -   [HTML]()
 -   [CSS]()
